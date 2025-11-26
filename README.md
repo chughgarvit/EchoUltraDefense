@@ -1,14 +1,9 @@
-# UltraDefense – Lightweight Ultrasonic Attack Detection & Blocking
-
-**Project by:** Vadthya Sandeep  
-**Roll No:** M24EET020  
-**Institute:** IIT Jodhpur – M.Tech Sensors & IoT
-
+# EchoGate: Lightweight Ultrasonic Defense for Smart Earbuds Against Hidden Commands
 ---
 
 ## 1. Overview
 
-UltraDefense implements a complete pipeline to **simulate, analyze, and defend** against ultrasonic AM-modulated microphone injection attacks (“DolphinAttack”) targeting smart earbuds.  
+EchoGate implements a complete pipeline to **simulate, analyze, and defend** against ultrasonic AM-modulated microphone injection attacks (“DolphinAttack”) targeting smart earbuds.  
 **Key components include:**
 
 - Audio resampling
@@ -20,7 +15,7 @@ UltraDefense implements a complete pipeline to **simulate, analyze, and defend**
 - ASR (wake-word) success measurement
 - Phase-1, Phase-2, Phase-3 experimental pipelines
 **Scientific Summary:**
-UltraDefense detects ultrasonic command injection attacks by analyzing high-frequency band energy (>18 kHz) using adaptive percentile thresholding on STFT frames. When an attack is detected, only the malicious region is muted (≈300–400 ms), ensuring zero false rejects, low latency (~64 ms), and no hardware modification. The method is fully DSP-only, making it suitable for resource-constrained earbud SoCs.
+EchoGate detects ultrasonic command injection attacks by analyzing high-frequency band energy (>18 kHz) using adaptive percentile thresholding on STFT frames. When an attack is detected, only the malicious region is muted (≈300–400 ms), ensuring zero false rejects, low latency (~64 ms), and no hardware modification. The method is fully DSP-only, making it suitable for resource-constrained earbud SoCs.
 
 ---
 
